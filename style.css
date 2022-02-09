@@ -451,11 +451,13 @@ header{
     }
     .navbar ul li {
         margin-top: 30px;
+        outline: none;
     }
     .navbar ul li a{
         font-size: 20px;
         position: relative;
         letter-spacing: 2px;
+        outline: none;
     }
     .navbar ul:before{
         content: 'Navigation';
