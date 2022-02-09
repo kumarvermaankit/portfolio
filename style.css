@@ -141,7 +141,6 @@ header{
 }
 .heading h1{
     /* line-height: 20px; */
-    font-size: 50px;
     /* letter-spacing: -4px; */
     text-transform: uppercase;
     color: var(--white);
@@ -213,9 +212,9 @@ header{
     flex-basis: 50%;
 }
 .header-img img{
-    width: 510px;
-    height: 510px;
-    margin-left: 90px;
+    width: 70%;
+    height: 80%;
+    margin-left: 15%;
     transform: translateY(50px);
 }
 
@@ -544,9 +543,9 @@ header{
     overflow: hidden;
     height: 60px;
     border-right: 0 solid white;
-
+    font-size: 3.3vw;
     white-space: nowrap;
-    width: 580px;
+    width: 85%;
     /* letter-spacing: 0.15em; */
     animation: typing 5s steps(45);
     /* -moz-animation-iteration-count: infinite;
@@ -562,7 +561,7 @@ header{
 
     }
     to {
-      width: 580px;
+      width: 85%;
 
     }
   }
